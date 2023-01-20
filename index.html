@@ -13,18 +13,23 @@
       <form id="feedback-form" method="POST" action="https://formspree.io/xjvdkazr">
         <input type="text" id="name" name="name" placeholder="Name">
         <input type="text" id="comment" name="comment" placeholder="Comment">
-        <input type="radio" name="rating" value="1"> 1
-        <input type="radio" name="rating" value="2"> 2
-        <input type="radio" name="rating" value="3"> 3
-        <input type="radio" name="rating" value="4"> 4
-        <input type="radio" name="rating" value="5"> 5
+        <div class="rating">
+          <input type="radio" name="rating" value="1" id="rating-1">
+          <label for="rating-1"></label>
+          <input type="radio" name="rating" value="2" id="rating-2">
+          <label for="rating-2"></label>
+          <input type="radio" name="rating" value="3" id="rating-3">
+          <label for="rating-3"></label>
+          <input type="radio" name="rating" value="4" id="rating-4">
+          <label for="rating-4"></label>
+          <input type="radio" name="rating" value="5" id="rating-5">
+          <label for="rating-5"></label>
+        </div>
         <input type="submit" value="Submit">
       </form>
-      
     </div>
   </div>
   <script src="script.js"></script>
 </body>
 </html>
 
-  
