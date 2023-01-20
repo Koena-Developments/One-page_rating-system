@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="img-container">
+        <img src="IMAGE/LOGO.png" alt="image" class=" LOGO">
+      </div>
+      <form id="feedback-form" method="POST" action="https://formspree.io/xjvdkazr">
+        <input type="text" id="name" name="name" placeholder="Name">
+        <input type="text" id="comment" name="comment" placeholder="Comment">
+        <input type="radio" name="rating" value="1"> 1
+        <input type="radio" name="rating" value="2"> 2
+        <input type="radio" name="rating" value="3"> 3
+        <input type="radio" name="rating" value="4"> 4
+        <input type="radio" name="rating" value="5"> 5
+        <input type="submit" value="Submit">
+      </form>
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+  
