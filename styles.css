@@ -4,6 +4,10 @@ body {
   color: #fff;
 }
 
+.section{
+  margin-left: 100px;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -31,6 +35,10 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 2px 2px 10px #999;
+  transition: box-shadow 0.8s;
+}
+.card:hover{
+  box-shadow: 1px 1px 13px #ffa600;
 }
 
 form {
@@ -43,6 +51,7 @@ label {
   display: block;
   color: #ffa600;
 }
+
 
 input[type="text"], textarea {
   width: 100%;
@@ -62,7 +71,7 @@ input[type="text"], textarea {
     border-radius: 4px;
     cursor: pointer;
     font-size: 18px;
-    margin-left: 40px;
+    margin-left: 170px;
     margin-top: 80px;
   }
   
@@ -91,7 +100,7 @@ input[type="text"], textarea {
   }
   
   .rating label:before {
-    content: "";
+    content: "★";
   }
   
   .rating input:checked ~ label {
